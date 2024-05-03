@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kesmeey-generator-maker" />
-        <module name="kesmeey-generator-basic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kesmeey-generator-maker" target="1.8" />
+      <module name="maven-archiver" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
